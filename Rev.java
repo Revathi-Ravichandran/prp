@@ -2,7 +2,8 @@ class Rev
 {
 public static void main(String args[])
 {
-StringBuffer rev=new StringBuffer(args[0]);
+Scanner s=new Scanner(System.in);
+StringBuffer rev=new StringBuffer(s.nextLine());
 rev.reverse();
 System.out.println(rev);
 }
